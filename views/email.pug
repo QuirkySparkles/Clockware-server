@@ -1,0 +1,17 @@
+html
+  head
+    meta(http-equiv = 'Content-Type', content = 'text/html; charset=UTF-8')
+    title= subject
+    body
+      h2.h2 Уважаемый клиент
+      p Ваш заказ был успешно оформлен. 
+        | Детали заказа:
+        ol
+          li Имя: #{name}
+          li Город: #{city}
+          li Размер часов: #{clocksize}
+          li Назначенная дата: #{orderdate}
+          li Время: #{time}
+      p= message
+      p Если у Вас возникли вопросы, Вы всегда можете связаться с нами по этой почте.
+      strong Спасибо что выбрали нас! 

@@ -1,0 +1,31 @@
+{
+    "name": "clockserver",
+    "version": "0.1.0",
+    "scripts": {
+        "dev": "nodemon src/clockserver.js"
+    },
+    "dependencies": {
+        "axios": "^0.18.0",
+        "bcrypt": "^2.0.1",
+        "body-parser": "^1.18.2",
+        "cookie-parser": "^1.4.3",
+        "cors": "^2.8.4",
+        "dotenv": "^6.0.0",
+        "express": "^4.16.3",
+        "express-mailer": "^0.3.1",
+        "jsonwebtoken": "^8.2.1",
+        "mysql": "^2.15.0",
+        "pug": "^2.0.3"
+    },
+    "devDependencies": {
+        "bcrypt": "^2.0.1",
+        "body-parser": "^1.18.2",
+        "cookie-parser": "^1.4.3",
+        "cors": "^2.8.4",
+        "dotenv": "^6.0.0",
+        "express-mailer": "^0.3.1",
+        "jsonwebtoken": "^8.2.1",
+        "mysql": "^2.15.0",
+        "nodemon": "^1.17.3"
+    }
+}
